@@ -1,7 +1,7 @@
 <?php
-    $arr            =   array(1=>'a',2=>'b',3=>'c',4=>'d',5=>'e');
-    $arrNew         =   array('a','b','c','d','e','f');
-    $secInterval    =   2;
+    //$arr            =   array(1=>'a',2=>'b',3=>'c',4=>'d',5=>'e');
+    $arrNew         =   array('a','b','c','d','e','f','g','h','i','j');
+    //$secInterval    =   3;
     
     $retArr         =   recursive2($arrNew,0,true,count($arrNew));
     echo "final";
@@ -11,7 +11,7 @@
 
     function recursive2($arr2,$counterPointer,$st,$intialCnt){
         
-        $secInterval    =   2;
+        $secInterval    =   3;
         
         $status         =   $st;
         
